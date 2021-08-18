@@ -1,0 +1,11 @@
+list1=[10,30,40,50,60,"C","CPP","Java","Python","Ruby"]
+print(list1)
+print(list1[2:5])
+list1.reverse()
+print(list1)
+list1.append(70)
+print(list1)
+list1.insert(9,20)
+print(list1)
+list1.clear()
+print(list1)
