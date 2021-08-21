@@ -1,6 +1,6 @@
-person1 = eval(input("Enter age of person 1 : "))
-person2 = eval(input("Enter age of person 2 : "))
-person3 = eval(input("Enter age of person 3 : "))
+person1 = int(input("Enter age of person 1 : "))
+person2 = int(input("Enter age of person 2 : "))
+person3 = int(input("Enter age of person 3 : "))
 
 # check oldest
 if person1 > person2 and person1 > person3:
